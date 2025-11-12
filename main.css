@@ -1,4 +1,4 @@
-
+`
 * {
   margin: 0;
   padding: 0;
@@ -470,8 +470,22 @@ section h1::after {
   }
 }
 
-footer{
-  align-items : center;
-  text-align : center;
-  font-size : 20px;
+footer {
+  background-color: rgba(17, 34, 64, 0.95);
+  padding: 20px 0;
+  text-align: center;
+  font-size: 16px;
+  color: #64FFDA;
+  border-top: 1px solid rgba(100, 255, 218, 0.3);
 }
+
+footer p {
+  margin: 5px 0;
+}
+
+footer p:last-child {
+  color: #A8DADC;
+  font-size: 14px;
+}
+
+
