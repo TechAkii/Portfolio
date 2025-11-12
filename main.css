@@ -469,3 +469,9 @@ section h1::after {
     grid-template-columns: 1fr;
   }
 }
+
+footer{
+  align-items : center;
+  text-align : center;
+  font-size : 20px;
+}
